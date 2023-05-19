@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-color: indianred;
+}
+
+/* start media queri */
+@media screen and (max-width:992px){
+   
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    
+}
+/* end media queri */
+
+/* start navbar */
+.navbar ul a:hover{
+    background-color: var(--brand-color);
+    border-radius: 18%;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .dropdown-divider{
+     height: 7px;
+ }
+ .brand-icon{
+     flex-basis: 50%;
+ }
+ 
+ 
+ /* end navbar */
+
+.signin{
+    padding-top: 10em;
+}
+
+.login{
+    flex-basis: 50%;
+    border-color: #979494;
+    border-style: groove;
+    border-left: none;
+    border-top: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+/* start form */
+form{
+    width: 66%;
+}
+form input{
+    border-color: aliceblue;
+    height: 43px;
+    font-size: 15px;
+    color: var(--brand-color);
+}
+form input:focus-visible{
+    outline: none;
+}
+form p{
+    letter-spacing: 2px;
+}
+/* end form */
+
+/* start forget password */
+.signin a{
+    padding-right: 9em;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.link-forget:hover{
+    text-decoration: underline;
+    font-size: large;
+    font-weight: bold;
+}
+/* end forget password */
+
+/* start hr */
+span{
+    background-color: darkgray;
+    color: darkgray;
+    width: 88%;
+    height: 1px;
+}
+/* end hr */
+
+
+ /* start footer */
+    .footer a:hover{
+        color: var(--brand-color);
+     }
+     .icon-feedback{
+        padding-left: 73px;
+     }
+     .row-feedback{
+        margin-left: 57px;
+     }
+
+     .icon-footer{
+        flex-basis: 5%;
+     }
+     .face:hover{
+        color: blue;
+        cursor: pointer;
+     }
+     .twitter:hover{
+        color: #4848e0;
+        cursor: pointer;
+     }
+     .whats:hover{
+        color: green;
+        cursor: pointer;
+     }
+     .youtube:hover{
+        color: red;
+        cursor: pointer;
+     }
+    /* end footer */

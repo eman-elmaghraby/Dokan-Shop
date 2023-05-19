@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-color: indianred;
+    --card-color: #343e40;
+}
+
+/* start media queri */
+@media screen and (max-width:992px){
+    .signin{
+        flex-direction: column !important;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .men-card{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .men-card:hover{
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+}
+/* end media queri */
+
+/* start navbar */
+.navbar ul a:hover{
+    background-color: var(--brand-color);
+    border-radius: 18%;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .dropdown-divider{
+     height: 7px;
+ }
+ .brand-icon{
+     flex-basis: 50%;
+ }
+ 
+ 
+ /* end navbar */
+ /* start header */
+ .men-header{
+    background-image: url('../images/products-background.jpg');
+    height: 68vh;
+    background-size: cover;
+    margin-top: 4rem!important;
+ }
+.text-header{
+    margin-top: 207px;
+}
+.h-header{
+    font-size: 53px;
+}
+/* end header */
+
+/* start men's fashion  */
+.men-card{
+    /* margin-left: 51px; */
+    outline-color: white;
+    outline-style: ridge;
+    border-radius: 1%;
+    transition: 0.5s all;
+}
+.men-card:hover{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: var(--card-color);
+    outline-color:var(--card-color) ;
+    transform: scale(1.2);
+}
+.icon-card{
+    cursor: pointer;
+}
+.icon-card i:hover{
+    color: var(--brand-color);
+}
+/* end men's fashion */
+
+
+
+
+  /* start footer */
+  .footer a:hover{
+    color: var(--brand-color);
+ }
+ .icon-feedback{
+    padding-left: 73px;
+ }
+ .row-feedback{
+    margin-left: 57px;
+ }
+
+ .icon-footer{
+    flex-basis: 5%;
+ }
+ .face:hover{
+    color: blue;
+    cursor: pointer;
+ }
+ .twitter:hover{
+    color: #4848e0;
+    cursor: pointer;
+ }
+ .whats:hover{
+    color: green;
+    cursor: pointer;
+ }
+ .youtube:hover{
+    color: red;
+    cursor: pointer;
+ }
+/* end footer */

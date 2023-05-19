@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-color: indianred;
+}
+
+/* start media queri */
+@media screen and (max-width:992px){
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .text-header{
+        text-align: center;
+    }
+    .services{
+        flex-basis: 46% !important;
+        
+       
+    }
+    
+}
+/* end media queri */
+
+/* start navbar */
+.navbar ul a:hover{
+    background-color: var(--brand-color);
+    border-radius: 18%;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .dropdown-divider{
+     height: 7px;
+ }
+ .brand-icon{
+     flex-basis: 50%;
+ }
+ 
+ 
+ /* end navbar */
+
+ /* start header */
+ .aboutus-header{
+    background-image: url('../images/about-us-page-heading.jpg');
+    height: 68vh;
+ }
+.text-header{
+    margin-top: 207px;
+}
+.h-header{
+    font-size: 53px;
+}
+/* end header */
+
+/* start about us */
+.about{
+    margin-top: 100px;
+}
+.image-about{
+    flex-basis: 50%;
+}
+.text-about{
+    flex-basis: 40%;
+}
+.icon{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    width: 58px;
+    height: 39px;
+}
+.icon-about{
+    font-size: xx-large;
+}
+
+/* start hr */
+span{
+    background-color: darkgray;
+    color: darkgray;
+    width: 100%;
+    display: block;
+    height: 2px;
+}
+/* end hr */
+/* end about us */
+
+/* start amazing */
+.amazing{
+    padding-top: 200px;
+}
+/* end amazing */
+
+/* start services */
+.sevices-section{
+    padding-top: 200px;
+}
+.services{
+    outline-style: outset;
+    outline-color: whitesmoke;
+
+    
+}
+/* end services */
+
+ /* start feedback */
+ .feedback{
+    padding-top: 200px;
+ }
+ .form-feedback{
+    font-weight: 400;
+    color: var(--brand-color);
+
+}
+/* end feedback */
+
+ /* start footer */
+ .footer a:hover{
+    color: var(--brand-color);
+ }
+ .icon-feedback{
+    padding-left: 73px;
+ }
+ .row-feedback{
+    margin-left: 57px;
+ }
+ 
+ .icon-footer{
+    flex-basis: 5%;
+ }
+ .face:hover{
+    color: blue;
+    cursor: pointer;
+ }
+ .twitter:hover{
+    color: #4848e0;
+    cursor: pointer;
+ }
+ .whats:hover{
+    color: green;
+    cursor: pointer;
+ }
+ .youtube:hover{
+    color: red;
+    cursor: pointer;
+ }
+/* end footer */
+

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="StyleSheet/bootstrap.min.css" rel="stylesheet">
+    <link href="StyleSheet/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="StyleSheet/registration.css">
+    <title>SIGN UP</title>
+</head>
+<body>
+     <!-- start navbar -->
+   <nav class="navbar navbar-expand-lg bg-dark fixed-top navbar-dark">
+    <div class="container d-flex justify-content-between flex-wrap">
+     <div class="brand-icon navbar-brand overflow-hidden">
+      <i class="fa-solid fa-user-secret fa-3x" style="color: white"></i>
+      <a class="navbar-brand text-light fs-3 fw-bolder" href="#">Dokan Shop</a>
+     </div>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">Latest Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="index.html">top deals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="login.html">log in</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              PAGES
+            </a>
+            <ul class="dropdown-menu bg-dark">
+              <li><a class="dropdown-item text-light" href="aboutus.html">About Us</a></li>
+              <li><a class="dropdown-item text-light" href="men's.html">Men's</a></li>
+              <li><a class="dropdown-item text-light" href="women's.html">Women's</a></li>
+              <li><a class="dropdown-item text-light" href="kid's.html">Kids's</a></li>
+              <li><a class="dropdown-item text-light" href="accessories.html">Accessories</a></li>
+              <li><hr class="dropdown-divider text-danger"></li>
+              <li><a class="dropdown-item text-light" href="contact.html">Contact Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <!-- start registraton form -->
+  <div class="container d-flex justify-content-center signup mb-5">
+    <div class="registration d-flex ps-5 flex-column mt-5">
+      <h2 class="text-capitalize mb-3 mt-4 text-form">Registration From</h2>
+      <form class="d-flex justify-content-center flex-column">
+        <div class="input d-flex flex-row">
+          <div class="d-flex flex-column me-4  name">
+            <label class="mb-1"><p class="fs-5 fw-bold ms-1 mt-2">First Name :</p></label>
+          <input class="mb-3 me-3 input-form" type="text">
+          </div>
+          <div class="d-flex flex-column name">
+            <label><p class="fs-5 fw-bold ms-1 mt-2">Last Name :</p></label>
+            <input class="mb-1 me-3 input-form" type="text">
+        </div>  
+      </div>
+      <div class="input d-flex flex-row">
+        <div class="d-flex flex-column me-4  name mt-2">
+          <label><p class="fs-5 fw-bold ms-1">Birthdate :</p></label>
+        <input class="mb-1 me-3 input-form" type="date">
+        </div>
+        <div class="d-flex flex-column name mt-2">
+          <label><p class="fs-5 fw-bold ms-1">Gender :</p></label>
+          <div class="checkbox d-flex flex-row">
+            <div class="d-flex flex-row">
+              <input class="mb-3" type="radio">
+              <p class="fs-5 ms-1 fw-bold">Male</p>
+          
+            </div>
+            <div class="d-flex flex-row ms-3">
+              <input class="mb-3" type="radio">
+              <p class="fs-5 ms-1 fw-bold">Female</p>
+          </div>
+            </div>
+      </div>  
+    </div> 
+    <div class="input d-flex flex-row">
+      <div class="d-flex flex-column me-4  name">
+        <label class="mb-1"><p class="fs-5 fw-bold ms-1 mt-2">Email :</p></label>
+      <input class="mb-3 me-3 input-form" type="email">
+      </div>
+      <div class="d-flex flex-column name">
+        <label><p class="fs-5 fw-bold ms-1 mt-2 overflow-hidden">Mobile Number :</p></label>
+        <input class="mb-1 me-3 input-form" type="number">
+    </div> 
+    </div>
+   
+      <div class="d-flex flex-column name ">
+        <label><p class="fs-5 fw-bold ms-1 mt-2 overflow-hidden">select your conutry :</p></label>
+        <div>
+          <input class="mb-1 me-3 option-form col-lg-12 col-md-12 col-12" list="countries">
+        <datalist id="countries">
+          <option value="Alexandria"></option>
+          <option value="Aswan"></option>
+          <option value="Cairo"></option>
+          <option value="Damnhor"></option>
+          <option value="Sueiz"></option>
+          <option value="Damyetta"></option>
+          <option value="Ismailia"></option>
+          <option value="Fayom"></option>
+
+        </datalist>
+        </div>
+    </div> 
+        <div class="checkbox d-flex flex-row mb-2">
+              <input class="mt-2"  type="checkbox">
+          <p class="fs-6 fw-bold ms-1 mt-5">By signing up, you agree to the 
+            <a  class="text-decoration-none" href="#">Terms of Service</a>
+            <br>
+            and 
+            <a class="text-decoration-none" href="#">Privacy Policy</a>
+            , including Cookie Use.
+          </p>
+          </div>
+         <div class="button  d-flex flex-column col-lg-2 col-md-10 col-10">
+          <input type="reset" value="Rest" class="btn mb-3 fw-bold bform text-center"></input>
+          <input type="button" value="Submit"  class="btn mb-3 fw-bold bform"><a class="text-light text-center" href="index.html">Sign Up New Account</a></input>
+         </div>
+      </form>
+     </div>
+  </div>
+  <!-- end registration form -->
+
+
+
+   <!-- start footer  -->
+   <div class=" bg-dark navbar-dark footer">
+    <div class="row container d-flex justify-content-between flex-row flex-wrap align-items-center row-footer">
+     <div class="col-lg-3 col-md-6 col-12 overflow-hidden mt-5 mb-2 d-flex align-items-center icon-footer1">
+      <i class="fa-solid fa-user-secret fa-7x" style="color: white;"></i>
+      <a class=" text-decoration-none lh-lg link-light fs-2 fw-bolder" href="#">Dokan Shop</a>
+     </div>
+      <div class="information-footer col-lg-3 col-md-6 col-12 mt-5">
+       <ul class="list-unstyled d-flex flex-column align-items-center">
+         <li><p class="fs-5 fw-bold text-capitalize text-light">Shopping & Categories</p></li>
+         <li class="p-2"><a class="link-light text-decoration-none" href="men's.html">Men's shopping</a></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="women's.html">women's shopping</a></li>
+         <li class="p-2" ><a class="link-light text-decoration-none"  href="kid's.html">Kids's shopping</a></li>
+         <li class="p-2" ><a class="link-light text-decoration-none"  href="accessories.html">Accessories</a></li>
+       </ul>
+     </div>
+     <div class="information-footer col-lg-3 col-md-6 col-12">
+       <ul class="list-unstyled d-flex flex-column align-items-center">
+         <li><p class="fs-5 fw-bold text-capitalize text-light">Useful Links</p></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="index.html">Home Page</a></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="aboutus.html">About Us</a></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="contact.html">Contact</a></li>
+       </ul>
+     </div>
+     <div class="information-footer col-lg-3 col-md-6 col-12">
+       <ul class="list-unstyled d-flex flex-column align-items-center">
+         <li><p class="fs-5 fw-bold text-capitalize text-light">Help & Information</p></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="#">Help</a></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="#">FAQ'S</a></li>
+         <li class="p-2"><a class="link-light text-decoration-none"  href="#">Track Your Shipping</a></li>
+       </ul>
+     </div>
+     </div>
+     <div class="card-footer col-12 bg-transparent border-success border-white text-light">
+       <p class="text-center font-monospace fs-5">Copyright © 2022 DokanShop Co., Ltd. All Rights Reserved.</p>
+       <div class="d-flex justify-content-center">
+         <i class="fa-brands fa-facebook-f face icon-footer"></i>
+         <i class="fa-brands fa-twitter twitter icon-footer"></i>
+         <i class="fa-brands fa-whatsapp whats icon-footer"></i>
+         <i class="fa-brands fa-youtube youtube icon-footer"></i>
+       </div>
+   </div>
+   </div>
+   <!-- end footer  -->
+   
+
+   <script src="JS/bootstrap.bundle.js"></script>
+</body>
+</html>

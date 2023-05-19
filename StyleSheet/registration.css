@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --brand-color: indianred;
+}
+
+/* start media queri */
+@media screen and (max-width:992px){
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .signup{
+        flex-direction: column !important;
+    }
+    .input{
+       flex-direction: column !important;
+    }
+    
+}
+/* end media queri */
+
+/* start navbar */
+.navbar ul a:hover{
+    background-color: var(--brand-color);
+    border-radius: 18%;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .dropdown-divider{
+     height: 7px;
+ }
+ .brand-icon{
+     flex-basis: 50%;
+ }
+ 
+ 
+ /* end navbar */
+
+
+/* start signup */
+.signup{
+    padding-top: 10em;
+}
+
+.registration{
+    flex-basis: 65%;
+    max-width: 100%;
+    max-height: 100%;
+    border-color: #979494;
+    border-style: groove;
+    border-left: none;
+    border-top: none;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+/* end singup */
+
+/* start form */
+form{
+    width: 100%;
+}
+.text-form{
+    color: var(--brand-color);
+}
+.name{
+    width: 46%;
+}
+.input-form{
+    max-width: 100%;
+    max-height: 100%;
+    border-color: aliceblue;
+    height: 33px;
+    font-size: 15px;
+    color: var(--brand-color);
+    font-weight: bold;
+}
+.input-form:focus-visible{
+    outline: none;
+}
+form h2{
+    letter-spacing: 2px;
+}
+.option-form{
+    max-width: 100%;
+    max-height: 100%;
+    border-color: aliceblue;
+    height: 33px;
+    font-size: 15px;
+    color: var(--brand-color);
+    font-weight: bold;
+}
+.bform{
+    background-color: var(--brand-color);
+    color: white;
+   
+    font-size: 15px;
+    outline-style: double;
+    outline-color: darkgray;
+}
+/* end form */
+
+  /* start footer */
+  .footer a:hover{
+    color: var(--brand-color);
+ }
+ .icon-feedback{
+    padding-left: 73px;
+ }
+ .row-feedback{
+    margin-left: 57px;
+ }
+ .icon-footer{
+    flex-basis: 5%;
+ }
+ .face:hover{
+    color: blue;
+    cursor: pointer;
+ }
+ .twitter:hover{
+    color: #4848e0;
+    cursor: pointer;
+ }
+ .whats:hover{
+    color: green;
+    cursor: pointer;
+ }
+ .youtube:hover{
+    color: red;
+    cursor: pointer;
+ }
+/* end footer */

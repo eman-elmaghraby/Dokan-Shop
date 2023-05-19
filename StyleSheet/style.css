@@ -1,0 +1,164 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+    
+}
+
+:root{
+    --brand-color: indianred;
+}
+/* start navbar */
+.navbar ul a:hover{
+    background-color: var(--brand-color);
+    border-radius: 18%;
+    text-transform: uppercase;
+    text-decoration: none;
+ }
+ .dropdown-divider{
+     height: 7px;
+ }
+ .brand-icon{
+     flex-basis: 50%;
+ }
+ 
+ 
+ /* end navbar */
+
+/* start media queri */
+@media screen and (max-width:992px) {
+    .navbar-nav{
+        align-items: center;
+    }
+    .navbar-toggler{
+        border: none;
+    } 
+    .brand-icon{
+        display: flex;
+        align-items: flex-start;
+    }
+    .deals:hover{
+        right: 64px !important;
+    }
+    .information{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button-form{
+        width: 100%;
+    }
+   
+}
+/* end media queri */
+/* start carousal */
+.carousel-caption{
+    bottom: 20%;
+}
+/* end carousal */
+/* start latest product */
+.latest{
+    margin-left: 51px;
+}
+.icon-card{
+    cursor: pointer;
+}
+.icon-card i:hover{
+    color: var(--brand-color);
+}
+.latest-card{
+    margin-bottom: 39px;
+}
+/* end latest product */
+
+/* start hot deals */
+.hot-deals img{
+    width: 100%;
+    }
+.top-deal1{
+    background-image: url('../images/deal-02.jpg');
+    color: white;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.top-deal2{
+    background-image: url('../images/deal-03.jpg');
+    color: white;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.top-deal3{
+    background-image: url('../images/deal-07.jpg');
+    color: white;
+    text-align: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.deals{
+    background-color: rgba(241, 79, 79, 0.8);
+    opacity: 0;
+    width: 100%;
+    height: 38vh;
+   
+ 
+}
+.deals:hover{
+    opacity: 1;
+    
+    transition: 0.5s all linear;
+    transform: scale(0.7);
+    font-weight: 600;
+    position: relative;
+    top: 2%;
+    right: 30px;
+    text-transform: capitalize;
+
+}
+    /* end hot deals */
+
+    /* start feedback */
+    .form-feedback{
+        font-weight: 400;
+        color: var(--brand-color);
+
+    }
+    /* end feedback */
+
+  /* start footer */
+  .footer a:hover{
+    color: var(--brand-color);
+ }
+ .icon-feedback{
+    padding-left: 73px;
+ }
+ .row-feedback{
+    margin-left: 57px;
+ }
+ 
+ .icon-footer{
+    flex-basis: 5%;
+ }
+ .face:hover{
+    color: blue;
+    cursor: pointer;
+ }
+ .twitter:hover{
+    color: #4848e0;
+    cursor: pointer;
+ }
+ .whats:hover{
+    color: green;
+    cursor: pointer;
+ }
+ .youtube:hover{
+    color: red;
+    cursor: pointer;
+ }
+/* end footer */
